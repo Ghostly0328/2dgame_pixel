@@ -19,4 +19,8 @@ public class MenuRun : MonoBehaviour
         if(gameObject.transform.position.x>700)
             SceneManager.LoadScene("Menu");
     }
+    public void OnMouseDown()
+    {
+        SceneManager.LoadScene("Class");
+    }
 }
