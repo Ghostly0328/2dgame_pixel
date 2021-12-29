@@ -28,6 +28,10 @@ public class frog : Enemy
     public void Update()
     {
         SwitchAnim();
+        if (health <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
     void Movement()
     {

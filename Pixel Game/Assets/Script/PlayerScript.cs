@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class PlayerScript : MonoBehaviour
     public Collider2D WallSensor;
     public      LayerMask       Ground;
     private     float           Speed=250,JumpForce=750;
-    private     float           m_timeSinceAttack = 0;
+    private     float           m_timeSinceAttack = 0,m_timeCollect=0;
     public float JumpCount;
     private     int             num_Attack=0;
     private     bool            HasMouseBeenPressed = false,NoGetDamage,jumpPressed;
@@ -85,10 +86,15 @@ public class PlayerScript : MonoBehaviour
         {
             jumpPressed = true;
         }
+        if(gameObject.transform.position.y <= -50)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
     void FixedUpdate()
     {
         m_timeSinceAttack += Time.deltaTime;
+        m_timeCollect += Time.deltaTime;
         SwitchAnim();
         Movement();
         if (PlayerHealth <= 0)
@@ -238,21 +244,30 @@ public class PlayerScript : MonoBehaviour
         //撿取藥水
         if (collision.gameObject.tag == "Posion")
         {
-            if (PlayerHealth <=8)
+            if (m_timeCollect >= 0.05)
             {
-                Destroy(collision.gameObject);
-                PlayerHealth += 2;
+                if (PlayerHealth <= 8)
+                {
+                    Destroy(collision.gameObject);
+                    PlayerHealth += 2;
+                }
+                else if (PlayerHealth == 9)
+                {
+                    Destroy(collision.gameObject);
+                    PlayerHealth += 2;
+                }
             }
-            else if (PlayerHealth == 9)
-            {
-                Destroy(collision.gameObject);
-                PlayerHealth += 2;
-            }
+            m_timeCollect = 0;
         }
         //撿到金幣
         if (collision.gameObject.tag == "Coin")
         {
-            Destroy(collision.gameObject);
+            if (m_timeCollect >= 0.02)
+            {
+                Destroy(collision.gameObject);
+                CoinCount.Coin += 1;
+            }
+            m_timeCollect = 0;
         }
     }
     void ReadytoDash()
