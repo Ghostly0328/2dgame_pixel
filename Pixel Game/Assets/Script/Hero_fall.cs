@@ -11,7 +11,7 @@ public class Hero_fall : StateMachineBehaviour
     }
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (rb.velocity.y == 0)
+        if (rb.velocity.y <= 0.05)
         {
             animator.SetBool("Fall", false);
         }
