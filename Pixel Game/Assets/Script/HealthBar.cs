@@ -11,11 +11,10 @@ public class HealthBar : MonoBehaviour
     public Image Health;
     void Start()
     {
-        HealthCurrent = HealthMax;
-        Player = GameObject.FindGameObjectWithTag("Player");
+        Player = CharactorChangeCam.main;
     }
     void Update()
     {
-        Health.fillAmount = Player.GetComponent<PlayerScript>().PlayerHealth / HealthMax;
+        Health.fillAmount = StaticCharactor.health / HealthMax;
     }
 }

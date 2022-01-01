@@ -152,7 +152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5509584370656813124
 Transform:
   m_ObjectHideFlags: 0
@@ -162,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 5509584370656813128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -46.3555, y: -3.6299, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 5509584371564070933}
   - {fileID: 5509584369791273408}
@@ -275,7 +275,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12469101, y: -0.08330822}
+  m_Offset: {x: -0.12469101, y: -0.17033124}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -286,7 +286,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.930748, y: 2.6893625}
+  m_Size: {x: 0.930748, y: 2.4797692}
   m_EdgeRadius: 0.1
 --- !u!114 &5509584370656813122
 MonoBehaviour:
@@ -306,8 +306,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   JumpCount: 0
+  Blinks: 3
+  times: 0.12
   hard: {fileID: 6200000, guid: 7641a543a9fc5fa498c7d5ea5e6b48b7, type: 2}
   soft: {fileID: 6200000, guid: 8ea0380222c6017469c73eddaf4a573c, type: 2}
+  atkcool: 2
+  atkbar: {fileID: 0}
+  firebollobj: {fileID: 6282288814500673293, guid: fa445da38e6e9be4da9bb067b0104346,
+    type: 3}
+  firebollbar: {fileID: 0}
+  firebollcool: 2
 --- !u!1 &5509584371564070932
 GameObject:
   m_ObjectHideFlags: 0

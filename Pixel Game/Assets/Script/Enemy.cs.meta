@@ -3,7 +3,14 @@ guid: cb578146026fbcd47894935238b23606
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - BloodEffect: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - wizard: {fileID: 5509584370656813128, guid: cd004f4b27b2dc44aaf7356ae62e26b4,
+      type: 3}
+  - sword: {fileID: 1031665237501712501, guid: aed0ed54b84bcb34391f0df331b7aa99, type: 3}
+  - Anim: {instanceID: 0}
+  - FloatPointBase: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

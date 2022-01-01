@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Select : MonoBehaviour
 {
-    public float char_num=0;
+    public int char_num=0;
     public GameObject a, b, c;
     private void Update()
     {
+        StaticCharactor.charactor = char_num;
         if (char_num == 1)
         {
             gameObject.transform.localPosition = new Vector2(280, gameObject.transform.localPosition.y);

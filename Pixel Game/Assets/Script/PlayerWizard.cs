@@ -14,14 +14,25 @@ public class PlayerWizard : MonoBehaviour
     private float Speed = 250, JumpForce = 750;
     private float m_timeSinceAttack = 0, m_timeCollect = 0;
     public float JumpCount;
-    private bool jumpPressed;
+    private bool jumpPressed, NoGetDamage = false;
     static public float PlayerDamage = 1, PlayerHealth = 10;
     static public bool isColliding;
     private Renderer myRender;
     private float facedirection, horizontalmove, JumpButton;
+    public int Blinks;
+    public float times;
     [Header("Material")]
     public PhysicsMaterial2D hard;
     public PhysicsMaterial2D soft;
+    [Header("AttackCool")]
+    public float atkcool;
+    public Image atkbar;
+    static public bool atkhit=false,atkuse=true;
+    [Header("Fireboll")]
+    private bool boll;
+    public GameObject firebollobj;
+    public Image firebollbar;
+    public float firebollcool;
 
     void Start()
     {
@@ -46,15 +57,21 @@ public class PlayerWizard : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && atkuse)
         {
             Anim.SetBool("Attack", true);
             Anim.SetBool("NAttack", false);
+            PlayerWizard.atkhit = true;
         }
         else
         {
             Anim.SetBool("NAttack", true);
             Anim.SetBool("Attack", false);
+        }
+        if (Input.GetMouseButton(1) && firebollbar.fillAmount >= 0.99)
+        {
+            boll = true;
+            firebollbar.fillAmount = 0;
         }
     }
     void FixedUpdate()
@@ -64,6 +81,12 @@ public class PlayerWizard : MonoBehaviour
         Movement();
         if (PlayerHealth <= 0)
             Destroy(gameObject);
+        atkcheck();
+        if (boll)
+        {
+            fireboll();
+            boll = false;
+        }else firebollbar.fillAmount += 1.0f / firebollcool * Time.deltaTime;
     }
     void Movement()
     {
@@ -113,7 +136,28 @@ public class PlayerWizard : MonoBehaviour
     }
     public void PlayerGetDamage(float damage)
     {
-
+        print("yes");
+        if (!NoGetDamage)
+        {
+            PlayerHealth -= damage;
+            StaticCharactor.health = PlayerHealth;
+            BlinkPlayer(Blinks, times);
+        }
+    }
+    void BlinkPlayer(int numblinks, float seconds)
+    {
+        StartCoroutine(DoBlinks(numblinks, seconds));
+    }
+    IEnumerator DoBlinks(int numBlinks, float seconds)
+    {
+        NoGetDamage = true;
+        for (int i = 0; i < numBlinks * 2; i++)
+        {
+            myRender.enabled = !myRender.enabled;
+            yield return new WaitForSeconds(seconds);
+        }
+        myRender.enabled = true;
+        NoGetDamage = false;
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -144,6 +188,37 @@ public class PlayerWizard : MonoBehaviour
                 CoinCount.Coin += 1;
             }
             m_timeCollect = 0;
+        }
+    }
+    void atkcheck()
+    {
+        if(atkhit == true)
+        {
+            atkbar.fillAmount -= 1.5f / atkcool * Time.deltaTime;
+        }
+        else
+        {
+            atkbar.fillAmount += 1.0f / atkcool * Time.deltaTime;
+        }
+        atkhit = false;
+        if (atkbar.fillAmount <= 0.01)
+        {
+            atkuse = false;
+        }
+        if (atkbar.fillAmount >= 0.99)
+        {
+            atkuse = true;
+        }
+    }
+    void fireboll()
+    {
+        if (transform.localScale.x >0)
+        {
+            Instantiate(firebollobj, new Vector3(transform.position.x + 1.8f, transform.position.y, transform.position.z), transform.rotation);
+        }
+        if (transform.localScale.x <0)
+        {
+            Instantiate(firebollobj, new Vector3(transform.position.x - 1.8f, transform.position.y, transform.position.z), transform.rotation);
         }
     }
 }

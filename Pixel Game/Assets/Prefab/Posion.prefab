@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7733575023924840606}
   - component: {fileID: 7733575023924840605}
   - component: {fileID: 7733575023924840604}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Posion
   m_TagString: Posion
   m_Icon: {fileID: 0}
@@ -47,6 +47,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -58,6 +60,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -113,7 +116,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.015059948, y: 0.060263693}
+  m_Offset: {x: 0.0043005943, y: -0.51952565}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -124,5 +127,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9226079, y: 3.4688811}
-  m_EdgeRadius: 0.1
+  m_Size: {x: 1.8907831, y: 2.6921191}
+  m_EdgeRadius: 0

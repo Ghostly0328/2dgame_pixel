@@ -221,6 +221,7 @@ public class PlayerScript : MonoBehaviour
         if (!NoGetDamage)
         {
             PlayerHealth -= damage;
+            StaticCharactor.health = PlayerHealth;
             BlinkPlayer(Blinks,times);
         }
     }

@@ -14,8 +14,7 @@ public class PlayerAttack : MonoBehaviour
         if (collision.gameObject.tag == "Enemies" && !PlayerScript.isColliding)
         {
             PlayerScript.isColliding = true;
-            print("yes");
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(Player.gameObject.GetComponent<PlayerScript>().PlayerDamage);
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(StaticCharactor.playerdamage);
         }
     }
 }

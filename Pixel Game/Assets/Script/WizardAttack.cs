@@ -6,7 +6,7 @@ public class WizardAttack : MonoBehaviour
     public float atk_time,count=0;
     private void Start()
     {
-        Player = GameObject.FindWithTag("Evil Wizard fire");
+        Player = CharactorChangeCam.main;
     }
     private void FixedUpdate()
     {

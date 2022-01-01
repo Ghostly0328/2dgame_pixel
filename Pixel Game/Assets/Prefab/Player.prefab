@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &826193361
 Transform:
   m_ObjectHideFlags: 0
@@ -487,7 +487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1031665237501712456
 Transform:
   m_ObjectHideFlags: 0
@@ -523,6 +523,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -534,6 +536,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -624,7 +627,7 @@ MonoBehaviour:
   hard: {fileID: 6200000, guid: 7641a543a9fc5fa498c7d5ea5e6b48b7, type: 2}
   soft: {fileID: 6200000, guid: 8ea0380222c6017469c73eddaf4a573c, type: 2}
   dashTime: 0.1
-  dashCoolDown: 1
+  dashCoolDown: 0.1
   dashSpeed: 1250
   DashBar: {fileID: 0}
   SlowMoveTimeMax: 2
@@ -644,8 +647,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0483495, y: 0.023921728}
-  m_Size: {x: 0.5709379, y: 1.7546239}
+  m_Offset: {x: 0.0483495, y: -0.027024508}
+  m_Size: {x: 0.5709379, y: 1.6527314}
   m_Direction: 0
 --- !u!1 &1031665237521511825
 GameObject:

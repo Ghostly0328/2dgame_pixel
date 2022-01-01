@@ -9,15 +9,22 @@ public abstract class Enemy : MonoBehaviour
     private SpriteRenderer sr;
     private Color originalcolor;
     public float FlashTime;
-    public GameObject BloodEffect,Player;
+    public GameObject BloodEffect,Player,wizard,sword;
     public Animator Anim;
     public GameObject FloatPointBase;
     public void Start()
     {
         Anim = GetComponent<Animator>();
-        Player = GameObject.FindWithTag("Player");
         sr = GetComponent<SpriteRenderer>();
         originalcolor = sr.color;
+        if (StaticCharactor.charactor == 0)
+        {
+            Player = sword;
+        }
+        if (StaticCharactor.charactor == 1)
+        {
+            Player = wizard;
+        }
     }
     public void TakeDamage(float damage)
     {
@@ -41,14 +48,14 @@ public abstract class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Enemies" && !PlayerScript.isColliding)
         {
             PlayerScript.isColliding = true;
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(Player.gameObject.GetComponent<PlayerScript>().PlayerDamage);
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(10);
         }
     }
     public void PlayerTrigger(Collider2D other)
     {
-        if(other.gameObject.tag=="Player" && other.GetType().ToString()== "UnityEngine.CapsuleCollider2D" && PlayerScript.dashTimeLeft < 0.001f)
+        if(other.gameObject.tag=="Player" && PlayerScript.dashTimeLeft < 0.001f) //other.GetType().ToString()== "UnityEngine.CapsuleCollider2D"
         {
-            Player.gameObject.GetComponent<PlayerScript>().PlayerGetDamage(damage);
+            CharactorChangeCam.main.SendMessage("PlayerGetDamage", damage);
         }
     }
 }
