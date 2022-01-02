@@ -20,7 +20,7 @@ public class PlayerScript : MonoBehaviour
     public      float           PlayerDamage=3, PlayerHealth=10,MoreDamage=6;
     static      public          bool isColliding;
     public int Blinks;
-    public float times;
+    public float times,deadzonecount;
     private Renderer myRender;
     public static float facedirection, horizontalmove, JumpButton;
     public Button A_Button, B_Button, X_Button, Y_Button;
@@ -112,8 +112,10 @@ public class PlayerScript : MonoBehaviour
     {
         DashBar.fillAmount += 1.0f / dashCoolDown * Time.deltaTime;
         TimeBar.fillAmount += 1.0f / TimeCoolDown * Time.deltaTime;
+        deadzonecount += Time.deltaTime;
         m_timeSinceAttack += Time.deltaTime;
         m_timeCollect += Time.deltaTime;
+        StaticCharactor.health = PlayerHealth;
         ClearAtk();
         SwitchAnim();
         Movement();
@@ -240,7 +242,6 @@ public class PlayerScript : MonoBehaviour
         if (!NoGetDamage)
         {
             PlayerHealth -= damage;
-            StaticCharactor.health = PlayerHealth;
             BlinkPlayer(Blinks,times);
         }
     }
@@ -293,6 +294,16 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "EndZone")
         {
             EnterEndZone.SetActive(true);
+        }
+        //死亡區域
+        if (collision.gameObject.tag == "DeadZone")
+        {
+            if (deadzonecount > 0.3f)
+            {
+                StaticCharactor.lastheart -= 1;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                deadzonecount = 0;
+            }
         }
     }
     void ReadytoDash()
@@ -360,9 +371,5 @@ public class PlayerScript : MonoBehaviour
     {
         if (PlayerHealth <= 0)
             Destroy(gameObject);
-        if (gameObject.transform.position.y <= -50)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
     }
 }

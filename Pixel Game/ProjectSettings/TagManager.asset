@@ -10,6 +10,7 @@ TagManager:
   - Posion
   - Coin
   - EndZone
+  - DeadZone
   layers:
   - Default
   - TransparentFX

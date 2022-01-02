@@ -13,7 +13,7 @@ public class HealthBar : MonoBehaviour
     {
         Player = CharactorChangeCam.main;
     }
-    void Update()
+    void FixedUpdate()
     {
         Health.fillAmount = StaticCharactor.health / HealthMax;
     }

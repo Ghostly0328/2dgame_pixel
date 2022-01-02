@@ -18,13 +18,9 @@ public class frog : Enemy
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         col = GetComponent<BoxCollider2D>();
-        //transform.DetachChildren();
         leftx = left.position.x;
         rightx = right.position.x;
-        //Destroy(left.gameObject);
-        //Destroy(right.gameObject);
     }
-
     public void Update()
     {
         SwitchAnim();
@@ -47,8 +43,6 @@ public class frog : Enemy
                 rb.velocity = new Vector2(-speed, jumpforce);
                 anim.SetBool("jumping",true);
             }
-            
-            
         }
         else
         {
@@ -79,9 +73,5 @@ public class frog : Enemy
         {
             anim.SetBool("falling", false);
         }
-    }
-    public void AttackTrigger()
-    {
-
     }
 }
