@@ -308,6 +308,10 @@ MonoBehaviour:
   JumpCount: 0
   Blinks: 3
   times: 0.12
+  A: {fileID: 0}
+  B: {fileID: 0}
+  X: {fileID: 0}
+  Y: {fileID: 0}
   hard: {fileID: 6200000, guid: 7641a543a9fc5fa498c7d5ea5e6b48b7, type: 2}
   soft: {fileID: 6200000, guid: 8ea0380222c6017469c73eddaf4a573c, type: 2}
   atkcool: 2

@@ -18,16 +18,17 @@ public class PlayerWizard : MonoBehaviour
     static public float PlayerDamage = 1, PlayerHealth = 10;
     static public bool isColliding;
     private Renderer myRender;
-    private float facedirection, horizontalmove, JumpButton;
+    public static float facedirection, horizontalmove, JumpButton;
     public int Blinks;
     public float times;
+    public Button A, B, X, Y;
     [Header("Material")]
     public PhysicsMaterial2D hard;
     public PhysicsMaterial2D soft;
     [Header("AttackCool")]
     public float atkcool;
     public Image atkbar;
-    static public bool atkhit=false,atkuse=true;
+    static public bool atkhit=false,atkuse=true,abuttondown=false;
     [Header("Fireboll")]
     private bool boll;
     public GameObject firebollobj;
@@ -47,32 +48,51 @@ public class PlayerWizard : MonoBehaviour
         {
             JumpCount = 2;
         }
-        horizontalmove = Input.GetAxis("Horizontal");
-        facedirection = Input.GetAxisRaw("Horizontal");
+        //horizontalmove = Input.GetAxis("Horizontal");
+        //facedirection = Input.GetAxisRaw("Horizontal");
         if (Input.GetButtonDown("Jump") && JumpCount > 0)
         {
             jumpPressed = true;
         }
+        B.onClick.AddListener(() => {
+            if (JumpCount > 0)
+            {
+                jumpPressed = true;
+            }
+        });
         if (gameObject.transform.position.y <= -50)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        if (Input.GetMouseButton(0) && atkuse)
+        if (Input.GetButton("Fire1") && atkuse)
         {
             Anim.SetBool("Attack", true);
             Anim.SetBool("NAttack", false);
-            PlayerWizard.atkhit = true;
+            atkhit = true;
         }
-        else
+        if (abuttondown && atkuse)
+        {
+            Anim.SetBool("Attack", true);
+            Anim.SetBool("NAttack", false);
+            atkhit = true;
+        }
+        if (atkhit == false)
         {
             Anim.SetBool("NAttack", true);
             Anim.SetBool("Attack", false);
         }
-        if (Input.GetMouseButton(1) && firebollbar.fillAmount >= 0.99)
+        if (Input.GetButton("Fire2") && firebollbar.fillAmount >= 0.99)
         {
             boll = true;
             firebollbar.fillAmount = 0;
         }
+        X.onClick.AddListener(() => {
+            if (firebollbar.fillAmount >= 0.99)
+            {
+                boll = true;
+                firebollbar.fillAmount = 0;
+            }
+        });
     }
     void FixedUpdate()
     {
@@ -200,7 +220,6 @@ public class PlayerWizard : MonoBehaviour
         {
             atkbar.fillAmount += 1.0f / atkcool * Time.deltaTime;
         }
-        atkhit = false;
         if (atkbar.fillAmount <= 0.01)
         {
             atkuse = false;
@@ -209,6 +228,7 @@ public class PlayerWizard : MonoBehaviour
         {
             atkuse = true;
         }
+        atkhit = false;
     }
     void fireboll()
     {

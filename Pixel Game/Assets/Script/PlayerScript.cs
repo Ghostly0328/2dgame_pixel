@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -23,7 +22,9 @@ public class PlayerScript : MonoBehaviour
     public int Blinks;
     public float times;
     private Renderer myRender;
-    private float facedirection, horizontalmove, JumpButton;
+    public static float facedirection, horizontalmove, JumpButton;
+    public Button A_Button, B_Button, X_Button, Y_Button;
+    public GameObject EnterEndZone;
     [Header("Material")]
     public PhysicsMaterial2D hard;
     public PhysicsMaterial2D soft;
@@ -51,8 +52,31 @@ public class PlayerScript : MonoBehaviour
         Rb = GetComponent<Rigidbody2D>();
         Anim = GetComponent<Animator>();
         myRender = GetComponent<Renderer>();
-    }
+        A_Button.onClick.AddListener(() => {
+            HasMouseBeenPressed = true;
+        });
 
+        B_Button.onClick.AddListener(() => {
+            if (JumpCount > 0)
+            {
+                jumpPressed = true;
+            }
+        });
+
+        X_Button.onClick.AddListener(() => {
+            if (Time.time >= (lastDash + dashCoolDown))
+            {
+                ReadytoDash();
+            }
+        });
+
+        Y_Button.onClick.AddListener(() => {
+            if (TimeBar.fillAmount == 1)
+            {
+                SlowMoveBuffer = true;
+            }
+        });
+    }
     void Awake()
     {
         this.fixedDeltaTime = Time.fixedDeltaTime;
@@ -64,10 +88,9 @@ public class PlayerScript : MonoBehaviour
             JumpCount = 2;
             Anim.SetBool("jumping", false);
         }
-        ClearAtk();
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButton("Fire1"))
             HasMouseBeenPressed = true;
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetButton("Fire2"))
         {
             if(Time.time>=(lastDash + dashCoolDown)&& facedirection != 0)
             {
@@ -78,27 +101,23 @@ public class PlayerScript : MonoBehaviour
         {
             SlowMoveBuffer = true;
         }
-        DashBar.fillAmount += 1.0f / dashCoolDown * Time.deltaTime;
-        TimeBar.fillAmount += 1.0f / TimeCoolDown * Time.deltaTime;
-        horizontalmove = Input.GetAxis("Horizontal");
-        facedirection = Input.GetAxisRaw("Horizontal");
+        //horizontalmove = Input.GetAxis("Horizontal");
+        //facedirection = Input.GetAxisRaw("Horizontal");
         if(Input.GetButtonDown("Jump") && JumpCount >0)
         {
             jumpPressed = true;
         }
-        if(gameObject.transform.position.y <= -50)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
     }
     void FixedUpdate()
     {
+        DashBar.fillAmount += 1.0f / dashCoolDown * Time.deltaTime;
+        TimeBar.fillAmount += 1.0f / TimeCoolDown * Time.deltaTime;
         m_timeSinceAttack += Time.deltaTime;
         m_timeCollect += Time.deltaTime;
+        ClearAtk();
         SwitchAnim();
         Movement();
-        if (PlayerHealth <= 0)
-            Destroy(gameObject);
+        healthCheck();
         SlowMoveCount();
         Dash();
     }
@@ -135,7 +154,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (GroundSensor.IsTouchingLayers(Ground))
             {
-                Speed = 30;
+                Speed = 100;
             }
         }
         else
@@ -270,6 +289,11 @@ public class PlayerScript : MonoBehaviour
             }
             m_timeCollect = 0;
         }
+        //結束區域
+        if (collision.gameObject.tag == "EndZone")
+        {
+            EnterEndZone.SetActive(true);
+        }
     }
     void ReadytoDash()
     {
@@ -289,7 +313,7 @@ public class PlayerScript : MonoBehaviour
             }
             if (dashTimeLeft > 0)
             {
-                Rb.velocity = new Vector2(dashSpeed * facedirection * Time.deltaTime, Rb.velocity.y);
+                Rb.velocity = new Vector2(dashSpeed * transform.localScale.x * Time.deltaTime, Rb.velocity.y);
 
                 dashTimeLeft -= Time.deltaTime;
 
@@ -298,6 +322,7 @@ public class PlayerScript : MonoBehaviour
             }
             if (dashTimeLeft <= 0)
             {
+                Rb.velocity = new Vector2(0, Rb.velocity.y);
                 isDashing = false;
                 NoGetDamage = false;
             }
@@ -329,6 +354,15 @@ public class PlayerScript : MonoBehaviour
                 Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
                 SlowMoveStartCount = !SlowMoveStartCount;
             }
+        }
+    }
+    private void healthCheck()
+    {
+        if (PlayerHealth <= 0)
+            Destroy(gameObject);
+        if (gameObject.transform.position.y <= -50)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - EnemiesAtk
   - Posion
   - Coin
+  - EndZone
   layers:
   - Default
   - TransparentFX

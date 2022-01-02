@@ -10,7 +10,7 @@ public class ChangeScene : MonoBehaviour
     {
         level = gameObject.name;
     }
-    public void OnMouseDown()
+    public void btnchangescene()
     {
         SceneManager.LoadScene(level);
     }
