@@ -624,10 +624,12 @@ MonoBehaviour:
   MoreDamage: 6
   Blinks: 3
   times: 0.12
+  deadzonecount: 0
   A_Button: {fileID: 0}
   B_Button: {fileID: 0}
   X_Button: {fileID: 0}
   Y_Button: {fileID: 0}
+  EnterEndZone: {fileID: 0}
   hard: {fileID: 6200000, guid: 7641a543a9fc5fa498c7d5ea5e6b48b7, type: 2}
   soft: {fileID: 6200000, guid: 8ea0380222c6017469c73eddaf4a573c, type: 2}
   dashTime: 0.25

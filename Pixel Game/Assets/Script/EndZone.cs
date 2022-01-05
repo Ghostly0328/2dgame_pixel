@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EndZone : MonoBehaviour
@@ -10,14 +11,16 @@ public class EndZone : MonoBehaviour
     public float coinupspeed, timeupspeed, levelcoinlimit, leveltimelimit;
     public Text cointext, timetext;
     public Animator anim;
-    private int starcount = 0;
+    private int starcount = 0,PkStar;
     public GameObject activeme;
+    private string SceneName;
     private void Start()
     {
         coin = CoinCount.Coin;
         time = CoinCount.totaltimecount;
         if (time <= leveltimelimit) starcount += 1;
         if (coin >= levelcoinlimit) starcount += 1;
+        SceneName = SceneManager.GetActiveScene().name;
     }
     private void FixedUpdate()
     {
@@ -36,6 +39,11 @@ public class EndZone : MonoBehaviour
         {
             anim.SetInteger("star", starcount + 1);
             activeme.SetActive(true);
+            PkStar = PlayerPrefs.GetInt(SceneName);
+            if(PkStar < starcount + 1)
+            {
+                PlayerPrefs.SetInt(SceneName, starcount + 1);
+            }
         }
     }
 }

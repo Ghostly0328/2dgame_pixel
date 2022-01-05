@@ -7,12 +7,22 @@ public class LEVELSelect : MonoBehaviour
 {
     public GameObject levelSelectPanel;
     public Button[] levelSelectButtons;
-    public int unlockedlevelindex;
+    public int unlockedlevelindex,testlevelindex=0;
+    public string[] LevelNum;
     void Start()
     {
-        unlockedlevelindex = PlayerPrefs.GetInt("unlockedLevelIndex");
         levelSelectButtons = new Button[levelSelectPanel.transform.childCount];
-        for(int i = 0; i < levelSelectPanel.transform.childCount; i++)
+        LevelNum = new string[] { "1-1", "1-2", "1-3", "2-1", "2-2", "2-3" };
+        for (int i = 0; i < levelSelectButtons.Length ; i++)
+        {
+            if(PlayerPrefs.GetInt(LevelNum[i]) ==1 || PlayerPrefs.GetInt(LevelNum[i]) == 2 || PlayerPrefs.GetInt(LevelNum[i]) == 3)
+            {
+                testlevelindex += 1;
+            }
+        }
+        PlayerPrefs.SetInt("unlockedLevelIndex", testlevelindex);
+        unlockedlevelindex = PlayerPrefs.GetInt("unlockedLevelIndex");
+        for (int i = 0; i < levelSelectPanel.transform.childCount; i++)
         {
             levelSelectButtons[i] = levelSelectPanel.transform.GetChild(i).GetComponent<Button>();
         }
@@ -25,6 +35,10 @@ public class LEVELSelect : MonoBehaviour
         {
             levelSelectButtons[i].interactable = true;
             levelSelectPanel.transform.GetChild(i).GetComponent<Animator>().SetInteger("STAR",0);
+        }
+        for (int i = 0; i < unlockedlevelindex + 1; i++)
+        {
+            levelSelectPanel.transform.GetChild(i).GetComponent<Animator>().SetInteger("STAR", PlayerPrefs.GetInt(LevelNum[i]));
         }
         StaticCharactor.lastheart = 3;//設定生命值=3
     }
