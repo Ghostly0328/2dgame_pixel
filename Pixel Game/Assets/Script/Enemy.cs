@@ -10,11 +10,11 @@ public abstract class Enemy : MonoBehaviour
     private Color originalcolor;
     public float FlashTime;
     public GameObject BloodEffect,Player,wizard,sword;
-    public Animator Anim;
+    //public Animator Anim;
     public GameObject FloatPointBase;
     public void Start()
     {
-        Anim = GetComponent<Animator>();
+        //Anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         originalcolor = sr.color;
         if (StaticCharactor.charactor == 0)

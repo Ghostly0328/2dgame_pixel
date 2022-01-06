@@ -12,6 +12,7 @@ public class frog : Enemy
     private float leftx, rightx;
     private BoxCollider2D col;
     private bool faceleft = true;
+    public GameObject Coin;
     public void Start()
     {
         base.Start();
@@ -26,6 +27,7 @@ public class frog : Enemy
         SwitchAnim();
         if (health <= 0)
         {
+            Instantiate(Coin,new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             gameObject.SetActive(false);
         }
     }

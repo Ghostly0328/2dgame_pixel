@@ -11115,7 +11115,7 @@ Transform:
   - {fileID: 1209853219}
   - {fileID: 1699094835}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &903847088
 PolygonCollider2D:
@@ -14592,7 +14592,7 @@ RectTransform:
   - {fileID: 1578425001}
   - {fileID: 1064181278}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15360,7 +15360,7 @@ PrefabInstance:
     - target: {fileID: 5509584370656813124, guid: cd004f4b27b2dc44aaf7356ae62e26b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5509584370656813124, guid: cd004f4b27b2dc44aaf7356ae62e26b4,
         type: 3}

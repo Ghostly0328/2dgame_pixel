@@ -11,6 +11,7 @@ TagManager:
   - Coin
   - EndZone
   - DeadZone
+  - DangerArea
   layers:
   - Default
   - TransparentFX

@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class EndZone : MonoBehaviour
 {
-    private float coin, time, zerocoin=0, zerotime=0;
+    private float time, zerocoin=0, zerotime=0;
     private bool coinend=false,timeend=false;
     public float coinupspeed, timeupspeed, levelcoinlimit, leveltimelimit;
     public Text cointext, timetext;
     public Animator anim;
-    private int starcount = 0,PkStar;
+    private int starcount = 0,PkStar,PkCoin,coin;
     public GameObject activeme;
     private string SceneName;
     private void Start()
@@ -44,6 +44,12 @@ public class EndZone : MonoBehaviour
             {
                 PlayerPrefs.SetInt(SceneName, starcount + 1);
             }
+            PkCoin = PlayerPrefs.GetInt(SceneName + "Coin");
+            if (PkCoin < coin)
+            {
+                PlayerPrefs.SetInt(SceneName + "Coin", coin);
+            }
+            activeme.SetActive(true);
         }
     }
 }
