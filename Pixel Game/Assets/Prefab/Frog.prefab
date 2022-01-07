@@ -318,7 +318,6 @@ MonoBehaviour:
   Player: {fileID: 0}
   wizard: {fileID: 0}
   sword: {fileID: 0}
-  Anim: {fileID: 0}
   FloatPointBase: {fileID: 3922473866583008520, guid: 05c0ea553be7f36438bc928501b518bf,
     type: 3}
   left: {fileID: 2804927409257624854}
@@ -328,6 +327,7 @@ MonoBehaviour:
     m_Bits: 256
   speed: 2
   jumpforce: 6
+  Coin: {fileID: 1131213030262135969, guid: 85196b7ec1da63b4498a70fdd7050141, type: 3}
 --- !u!61 &1581624392849387142
 BoxCollider2D:
   m_ObjectHideFlags: 0

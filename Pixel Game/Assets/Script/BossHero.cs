@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHero : Enemy
 {
-
     public bool isFlipped = false;
     public Rigidbody2D Rb;
 
@@ -53,5 +53,10 @@ public class BossHero : Enemy
     public void Attackplus1()
     {
         Hero_Run.AttackNum += 1;
+    }
+    public void BossDeadScore()
+    {
+        PlayerPrefs.SetInt("1-3", 3);
+        SceneManager.LoadScene("Class");
     }
 }

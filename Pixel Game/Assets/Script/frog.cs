@@ -12,6 +12,7 @@ public class frog : Enemy
     private float leftx, rightx;
     private BoxCollider2D col;
     private bool faceleft = true;
+    public bool revurse;
     public GameObject Coin;
     public void Start()
     {
@@ -21,6 +22,11 @@ public class frog : Enemy
         col = GetComponent<BoxCollider2D>();
         leftx = left.position.x;
         rightx = right.position.x;
+        faceleft = !revurse;
+        if (revurse)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
     }
     public void Update()
     {

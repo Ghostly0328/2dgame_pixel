@@ -115,7 +115,6 @@ public class PlayerScript : MonoBehaviour
         deadzonecount += Time.deltaTime;
         m_timeSinceAttack += Time.deltaTime;
         m_timeCollect += Time.deltaTime;
-        StaticCharactor.health = PlayerHealth;
         ClearAtk();
         SwitchAnim();
         Movement();
@@ -241,7 +240,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (!NoGetDamage)
         {
-            PlayerHealth -= damage;
+            StaticCharactor.health -= damage;
             BlinkPlayer(Blinks,times);
         }
     }
@@ -267,15 +266,15 @@ public class PlayerScript : MonoBehaviour
         {
             if (m_timeCollect >= 0.05)
             {
-                if (PlayerHealth <= 8)
+                if (StaticCharactor.health <= 8)
                 {
                     Destroy(collision.gameObject);
-                    PlayerHealth += 2;
+                    StaticCharactor.health += 2;
                 }
-                else if (PlayerHealth == 9)
+                else if (StaticCharactor.health == 9)
                 {
                     Destroy(collision.gameObject);
-                    PlayerHealth += 2;
+                    StaticCharactor.health += 2;
                 }
             }
             m_timeCollect = 0;
@@ -369,7 +368,10 @@ public class PlayerScript : MonoBehaviour
     }
     private void healthCheck()
     {
-        if (PlayerHealth <= 0)
-            Destroy(gameObject);
+        if (StaticCharactor.health <= 0)
+        {
+            StaticCharactor.lastheart -= 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

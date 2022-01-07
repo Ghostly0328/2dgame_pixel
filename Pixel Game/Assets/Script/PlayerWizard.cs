@@ -20,8 +20,9 @@ public class PlayerWizard : MonoBehaviour
     private Renderer myRender;
     public static float facedirection, horizontalmove, JumpButton;
     public int Blinks;
-    public float times;
+    public float times, deadzonecount;
     public Button A, B, X, Y;
+    public GameObject EnterEndZone;
     [Header("Material")]
     public PhysicsMaterial2D hard;
     public PhysicsMaterial2D soft;
@@ -60,10 +61,6 @@ public class PlayerWizard : MonoBehaviour
                 jumpPressed = true;
             }
         });
-        if (gameObject.transform.position.y <= -50)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
         if (Input.GetButton("Fire1") && atkuse)
         {
             Anim.SetBool("Attack", true);
@@ -98,9 +95,13 @@ public class PlayerWizard : MonoBehaviour
     {
         m_timeSinceAttack += Time.deltaTime;
         m_timeCollect += Time.deltaTime;
+        deadzonecount += Time.deltaTime;
         Movement();
-        if (PlayerHealth <= 0)
-            Destroy(gameObject);
+        if (StaticCharactor.health <= 0)
+        {
+            StaticCharactor.lastheart -= 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         atkcheck();
         if (boll)
         {
@@ -159,8 +160,7 @@ public class PlayerWizard : MonoBehaviour
         print("yes");
         if (!NoGetDamage)
         {
-            PlayerHealth -= damage;
-            StaticCharactor.health = PlayerHealth;
+            StaticCharactor.health -= damage;
             BlinkPlayer(Blinks, times);
         }
     }
@@ -186,15 +186,15 @@ public class PlayerWizard : MonoBehaviour
         {
             if (m_timeCollect >= 0.05)
             {
-                if (PlayerHealth <= 8)
+                if (StaticCharactor.health <= 8)
                 {
                     Destroy(collision.gameObject);
-                    PlayerHealth += 2;
+                    StaticCharactor.health += 2;
                 }
-                else if (PlayerHealth == 9)
+                else if (StaticCharactor.health == 9)
                 {
                     Destroy(collision.gameObject);
-                    PlayerHealth += 2;
+                    StaticCharactor.health += 2;
                 }
             }
             m_timeCollect = 0;
@@ -208,6 +208,21 @@ public class PlayerWizard : MonoBehaviour
                 CoinCount.Coin += 1;
             }
             m_timeCollect = 0;
+        }
+        //結束區域
+        if (collision.gameObject.tag == "EndZone")
+        {
+            EnterEndZone.SetActive(true);
+        }
+        //死亡區域
+        if (collision.gameObject.tag == "DeadZone")
+        {
+            if (deadzonecount > 0.3f)
+            {
+                StaticCharactor.lastheart -= 1;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                deadzonecount = 0;
+            }
         }
     }
     void atkcheck()

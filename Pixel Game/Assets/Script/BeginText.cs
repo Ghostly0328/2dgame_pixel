@@ -7,6 +7,7 @@ public class BeginText : MonoBehaviour
     public Text maintext,Heart;
     void Start()
     {
+        StaticCharactor.health = 10; //設定初始血量
         //檢查是否沒生命
         Invoke("BeginCheckLive",1.5f);
         maintext.text = "WORLD " + SceneManager.GetActiveScene().name;

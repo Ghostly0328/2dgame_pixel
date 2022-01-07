@@ -40,6 +40,6 @@ public class LEVELSelect : MonoBehaviour
         {
             levelSelectPanel.transform.GetChild(i).GetComponent<Animator>().SetInteger("STAR", PlayerPrefs.GetInt(LevelNum[i]));
         }
-        StaticCharactor.lastheart = 3;//設定生命值=3
+        StaticCharactor.lastheart = 3;//設定關卡生命值=3
     }
 }

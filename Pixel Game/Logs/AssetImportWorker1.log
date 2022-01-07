@@ -1,0 +1,2198 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Education' Language: 'zh' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Github/2dgame_pixel/Pixel Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+1377
+Successfully changed project path to: D:/Github/2dgame_pixel/Pixel Game
+D:/Github/2dgame_pixel/Pixel Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/2dgame_pixel/Pixel Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001699 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (151ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2336 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 5.605200 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.057000 ms MarkObjects: 5.291300 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees
+  artifactKey: Guid(7e9f487cdcad65540bad689240c623ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees using Guid(7e9f487cdcad65540bad689240c623ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac46b4b8f1131f95547b9bd43c5940bc') in 0.008593 seconds 
+  Import took 0.011646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.801165 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges
+  artifactKey: Guid(e32122271ae05d947a1c95fba56ce127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges using Guid(e32122271ae05d947a1c95fba56ce127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7139cab1d782cc3c5925b6172d0672f5') in 0.006983 seconds 
+  Import took 0.010049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.655091 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders
+  artifactKey: Guid(9e639de8296119442a5947cf34317d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders using Guid(9e639de8296119442a5947cf34317d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadc55942e5e32d82a54832d47c70071') in 0.005477 seconds 
+  Import took 0.008766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.580814 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png
+  artifactKey: Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png using Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43902df5a8ba4ee4458cf9262978add') in 0.041141 seconds 
+  Import took 0.044683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.330266 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png
+  artifactKey: Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png using Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd9b6cb1f57283568456c97ff4084e') in 0.034505 seconds 
+  Import took 0.037716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.598890 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/5.png
+  artifactKey: Guid(641433ee283cd0f47b2b46e86a2c99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/5.png using Guid(641433ee283cd0f47b2b46e86a2c99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231c7ca56dd6ff470ccc73d295118219') in 0.010559 seconds 
+  Import took 0.027500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515280 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/3.png
+  artifactKey: Guid(e368abce43ec7ab48ba95b926b4fe73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/3.png using Guid(e368abce43ec7ab48ba95b926b4fe73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27713889967c717fc8736511b2c13f62') in 0.008848 seconds 
+  Import took 0.011933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.976384 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/6.png
+  artifactKey: Guid(e054c357f5fe28348a5a005542ea6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/6.png using Guid(e054c357f5fe28348a5a005542ea6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc690f9b3e243e591cf49aa85e5c26f') in 0.011031 seconds 
+  Import took 0.014468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.390294 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png
+  artifactKey: Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/1.png using Guid(3a4ded65af287e74980df6acadf0f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b489a5050b437fb71f5e30977c6cee') in 0.006689 seconds 
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601451 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/5.png
+  artifactKey: Guid(641433ee283cd0f47b2b46e86a2c99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/5.png using Guid(641433ee283cd0f47b2b46e86a2c99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bfed5ce01185389b29fce69808a89d') in 0.009348 seconds 
+  Import took 0.024200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308859 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/6.png
+  artifactKey: Guid(e054c357f5fe28348a5a005542ea6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/6.png using Guid(e054c357f5fe28348a5a005542ea6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6df529571b6fdb17736f26987b3581') in 0.006496 seconds 
+  Import took 0.037134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.302476 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/2.png
+  artifactKey: Guid(cb8fe93c90fa3f944890bca924b77973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/2.png using Guid(cb8fe93c90fa3f944890bca924b77973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bed9d363b20e6e80e50993208b3878') in 0.011713 seconds 
+  Import took 0.031353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/4.png
+  artifactKey: Guid(624a79f8f79a0fb40a769931aefe7256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/4.png using Guid(624a79f8f79a0fb40a769931aefe7256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999ee490b1f336d46be334e41fa34f4') in 0.010453 seconds 
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/3.png
+  artifactKey: Guid(e368abce43ec7ab48ba95b926b4fe73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ladders/3.png using Guid(e368abce43ec7ab48ba95b926b4fe73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee3bc592b6ca2b257b3b50ca3607d0f') in 0.007065 seconds 
+  Import took 0.031983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.787437 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/2.png
+  artifactKey: Guid(0628e3f0b830c8e4d8244d725017f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/2.png using Guid(0628e3f0b830c8e4d8244d725017f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ca033322e84a52a4383e5cb398e744') in 0.010520 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/6.png
+  artifactKey: Guid(910456debf9c5ae45858d1b9721c215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/6.png using Guid(910456debf9c5ae45858d1b9721c215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a361d7dafdc79e55d68271ac8c265505') in 0.009581 seconds 
+  Import took 0.012719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/5.png
+  artifactKey: Guid(a0b7c6abaadb6df49b362e643fec51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/5.png using Guid(a0b7c6abaadb6df49b362e643fec51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f875bd8d6838179e7afa9f44c4bcc6ee') in 0.009329 seconds 
+  Import took 0.012663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/3.png
+  artifactKey: Guid(865e22a81418071498a4d19104a5baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/3.png using Guid(865e22a81418071498a4d19104a5baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba540874708d0e77632df3cf554b17') in 0.009834 seconds 
+  Import took 0.027429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/9.png
+  artifactKey: Guid(7720a71bc504e5a47835c7eb9ed089e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/9.png using Guid(7720a71bc504e5a47835c7eb9ed089e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1de1bffd412460c6a4fe6759c3235b') in 0.009565 seconds 
+  Import took 0.012574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/10.png
+  artifactKey: Guid(ad9166ecb1b3bc44592b730762488452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/10.png using Guid(ad9166ecb1b3bc44592b730762488452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68744d3b26fb71e5fa8ccea2bdd10362') in 0.010179 seconds 
+  Import took 0.013435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/7.png
+  artifactKey: Guid(a500059812c6dc546a70a4bb944342fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/7.png using Guid(a500059812c6dc546a70a4bb944342fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359df4eb1621156c1d17060c8f14af58') in 0.009810 seconds 
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/8.png
+  artifactKey: Guid(9d2f93ba65941bd47b5b4f63aac12ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Grass/8.png using Guid(9d2f93ba65941bd47b5b4f63aac12ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4e5ee2f049fa06a85b18730368867f') in 0.010154 seconds 
+  Import took 0.017018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.057651 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/2.png
+  artifactKey: Guid(4fa0a717b49aee940a899b2c4bd59645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/2.png using Guid(4fa0a717b49aee940a899b2c4bd59645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb44697d2a4aa0e72a11a12ae7e9df') in 0.008825 seconds 
+  Import took 0.031194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/3.png
+  artifactKey: Guid(69d7bbfe8a634be4d867bac5b198f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/3.png using Guid(69d7bbfe8a634be4d867bac5b198f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed8716810794e6e039df17d7db91b6') in 0.009972 seconds 
+  Import took 0.013066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/8.png
+  artifactKey: Guid(f0c9862b13e48de40902fc2f8e1c8c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/8.png using Guid(f0c9862b13e48de40902fc2f8e1c8c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93005409a147a30eea0bc7a5f8f2f63') in 0.007375 seconds 
+  Import took 0.027856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/9.png
+  artifactKey: Guid(a722c4f197f92f9409aff64f3a9d16eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/9.png using Guid(a722c4f197f92f9409aff64f3a9d16eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ce6ffd9a4569753bc88a30de224b5e') in 0.007481 seconds 
+  Import took 0.010601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/4.png
+  artifactKey: Guid(701c8e3e36fe493419c97c692e332290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/4.png using Guid(701c8e3e36fe493419c97c692e332290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae2e41d3bcb9c04fccb1a7943a305de') in 0.009877 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/6.png
+  artifactKey: Guid(8d47777d3e35c0245be4bc973706cb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/6.png using Guid(8d47777d3e35c0245be4bc973706cb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f586b3bf64945b7e2976b168672808') in 0.009865 seconds 
+  Import took 0.012594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/7.png
+  artifactKey: Guid(cbc78654ed42deb47bbf2aa863ecfb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/7.png using Guid(cbc78654ed42deb47bbf2aa863ecfb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07e2b1a1dbab53d4e9c4fb9acb99620') in 0.008245 seconds 
+  Import took 0.019935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/5.png
+  artifactKey: Guid(0d388fbf991626e4eac73dcc5cf9fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Bushes/5.png using Guid(0d388fbf991626e4eac73dcc5cf9fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0666035d660f7b0fc7602e18afdba1f2') in 0.010774 seconds 
+  Import took 0.013919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.229178 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/2.png
+  artifactKey: Guid(d17111b21d1834942ab8668d4429273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/2.png using Guid(d17111b21d1834942ab8668d4429273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e160896c2d33122affdf4944acb3a6') in 0.064141 seconds 
+  Import took 0.091468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/3.png
+  artifactKey: Guid(03f88ccdb963d314dbd2f969983f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/3.png using Guid(03f88ccdb963d314dbd2f969983f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dad2846705c8004f84b53f71104cbe') in 0.041154 seconds 
+  Import took 0.044174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/5.png
+  artifactKey: Guid(6f8a2cf497ffa794b81edfaf4362de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/5.png using Guid(6f8a2cf497ffa794b81edfaf4362de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d6883cefde22f08ad4e87c1f715d1b') in 0.022471 seconds 
+  Import took 0.052218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png
+  artifactKey: Guid(997b9b8c295933649a6c64bc13a8a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png using Guid(997b9b8c295933649a6c64bc13a8a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf3c13fc12dee8665db5bd651fbc439') in 0.047506 seconds 
+  Import took 0.076082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/4.png
+  artifactKey: Guid(bfc207c1fa999354e85187fd01149d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/4.png using Guid(bfc207c1fa999354e85187fd01149d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65027e2ec7ea6abc0dfe8d268834373e') in 0.052594 seconds 
+  Import took 0.055784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.769726 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/2.png
+  artifactKey: Guid(844d83d9b9c40b74fafd245ba019f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/2.png using Guid(844d83d9b9c40b74fafd245ba019f68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e066d7a26e4633b8bd7c4c0e2ee6a0cd') in 0.009943 seconds 
+  Import took 0.013139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/4.png
+  artifactKey: Guid(f138aebc7767d8b41a6c38badf2b32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/4.png using Guid(f138aebc7767d8b41a6c38badf2b32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b85d311b7bf5510cbd8eca13708cb6') in 0.009488 seconds 
+  Import took 0.041320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/6.png
+  artifactKey: Guid(12a24526f8b4b654fa49b866652267f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/6.png using Guid(12a24526f8b4b654fa49b866652267f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e268438ed1a9b128675b412754ba17') in 0.009083 seconds 
+  Import took 0.012414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/5.png
+  artifactKey: Guid(b671b0b4dd83e6f4a8595b08d0549861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/5.png using Guid(b671b0b4dd83e6f4a8595b08d0549861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934e649ffa8547e79839189e1601253c') in 0.010240 seconds 
+  Import took 0.033543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/3.png
+  artifactKey: Guid(f27b9301863915b428c797a38410db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/3.png using Guid(f27b9301863915b428c797a38410db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfcb4b1f13cfad2d99e966900eb25f8') in 0.009065 seconds 
+  Import took 0.012157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/8.png
+  artifactKey: Guid(6a554ad426a808546848b4e988f7a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/8.png using Guid(6a554ad426a808546848b4e988f7a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2b2e46e317921ba347b200ac87b133') in 0.009930 seconds 
+  Import took 0.013163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/7.png
+  artifactKey: Guid(47e03e39bb537de4ba3442d06ad0daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/7.png using Guid(47e03e39bb537de4ba3442d06ad0daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73290e66aa1abdeaef4c5834a4dad0b7') in 0.009322 seconds 
+  Import took 0.012293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.900146 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png
+  artifactKey: Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png using Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc24be3e2ac77312b21b6da14821e307') in 0.044733 seconds 
+  Import took 0.047934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png
+  artifactKey: Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png using Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36304d2514e5b89ce3f32832e431e220') in 0.062054 seconds 
+  Import took 0.086373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png
+  artifactKey: Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png using Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40feb93e9776ac332fa2603359ac6836') in 0.056245 seconds 
+  Import took 0.059231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png
+  artifactKey: Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png using Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1ee9dcc9cb445ab32142c87a2755ff') in 0.033474 seconds 
+  Import took 0.036082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png
+  artifactKey: Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png using Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1200f4bdb5be22bbba822ae2036ead7f') in 0.025730 seconds 
+  Import took 0.028744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png
+  artifactKey: Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png using Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fb7f6cff9e196748c8239940bbf798') in 0.027226 seconds 
+  Import took 0.030440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.754584 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png
+  artifactKey: Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png using Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abc60df88f19c3cbcbf95ab129bbecd') in 0.011576 seconds 
+  Import took 0.041068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png
+  artifactKey: Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png using Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c517fa3257663eacb40211521a1edca') in 0.011506 seconds 
+  Import took 0.014289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png
+  artifactKey: Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png using Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9d009b2adf788681f5b696c089809e') in 0.009967 seconds 
+  Import took 0.026946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png
+  artifactKey: Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png using Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b743d70d88432474c197fea8f7efda') in 0.011136 seconds 
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png
+  artifactKey: Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png using Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed129154a47b625a3de0a9a3fbbde26') in 0.010201 seconds 
+  Import took 0.013503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png
+  artifactKey: Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png using Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef914f07ec6e228054b88af3d0911c7') in 0.011685 seconds 
+  Import took 0.014804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.083496 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png
+  artifactKey: Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png using Guid(7445128b3cdef644abdc3791603f2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce5f45bfa037457a3be3165cf2aa40') in 0.007496 seconds 
+  Import took 0.026540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png
+  artifactKey: Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/5.png using Guid(043da8526015d4044a1167384df42395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af6e4a06719110428b3f5d193ec022') in 0.007784 seconds 
+  Import took 0.010781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png
+  artifactKey: Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/2.png using Guid(0758631b5b31ecc4bbd9478bb38cee12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c934f510fbd109de14e213e80936fcc2') in 0.009044 seconds 
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png
+  artifactKey: Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/3.png using Guid(8c866a05528385145999e9298896f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6a1872ac914e68b0a03443dbfe9098') in 0.008034 seconds 
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png
+  artifactKey: Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/4.png using Guid(366d4b18bffa9ff43b0f7ed4d820fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4c5b4898dbe66c50b099128f9d26cb') in 0.008795 seconds 
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png
+  artifactKey: Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/6.png using Guid(8e595bfcd284a0d4a965327d5e3a7695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db5f2972c9d8dd5d7df4aefa88560c2') in 0.007649 seconds 
+  Import took 0.029215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.525602 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Willows/2.png
+  artifactKey: Guid(2e73c6b0c19b4df4699d0b3c3926c1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Willows/2.png using Guid(2e73c6b0c19b4df4699d0b3c3926c1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00106dbd1dce8e0cada0b202ca204e11') in 0.013662 seconds 
+  Import took 0.016942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Willows/3.png
+  artifactKey: Guid(5dc516c4004a8c743aa444feb629d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Willows/3.png using Guid(5dc516c4004a8c743aa444feb629d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af872df5ad095255619888ea72b13e') in 0.014364 seconds 
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.525941 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/1.png
+  artifactKey: Guid(6e798f9501aa8f744bf7f89826f2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/1.png using Guid(6e798f9501aa8f744bf7f89826f2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0805479959c4f0481d15559be1ecb34') in 0.062173 seconds 
+  Import took 0.065267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/2.png
+  artifactKey: Guid(a5a5b3aa5f275924ab967821fff4a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/2.png using Guid(a5a5b3aa5f275924ab967821fff4a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71272ae101ede56aa66e4a3c20328107') in 0.030830 seconds 
+  Import took 0.033621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png
+  artifactKey: Guid(506a234f23125574c85f1023ce5987cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png using Guid(506a234f23125574c85f1023ce5987cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5fb0b144cb9f58ba9694b8e4b2d644') in 0.066402 seconds 
+  Import took 0.095015 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.7 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2816.
+Total: 6.007800 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.055700 ms MarkObjects: 5.734700 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.961842 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/1.png
+  artifactKey: Guid(6e798f9501aa8f744bf7f89826f2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/1.png using Guid(6e798f9501aa8f744bf7f89826f2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2302988bb5c4dbf74118f135370a6173') in 0.042868 seconds 
+  Import took 0.046113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/2.png
+  artifactKey: Guid(a5a5b3aa5f275924ab967821fff4a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/2.png using Guid(a5a5b3aa5f275924ab967821fff4a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23140908d886794f719037035aedbb0b') in 0.010971 seconds 
+  Import took 0.013997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png
+  artifactKey: Guid(506a234f23125574c85f1023ce5987cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png using Guid(506a234f23125574c85f1023ce5987cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849425d670f3a57aad8d68d2e659c915') in 0.010872 seconds 
+  Import took 0.013832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.835487 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones
+  artifactKey: Guid(3196116ab1046df41ba4ed17e5be3d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones using Guid(3196116ab1046df41ba4ed17e5be3d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d92ad050e5e7207215f1741140c9b2e') in 0.005125 seconds 
+  Import took 0.026279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050263 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/1.png
+  artifactKey: Guid(ef377cef5c5fe4a47b2d6d8285a331a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/1.png using Guid(ef377cef5c5fe4a47b2d6d8285a331a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0d99d99da348c88f5e9774fdc6c7e7') in 0.035879 seconds 
+  Import took 0.039072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/2.png
+  artifactKey: Guid(375d11de983a16e41be776b77eecc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/2.png using Guid(375d11de983a16e41be776b77eecc754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60f1227bd1d0bac010c45bb1eaa6766') in 0.053764 seconds 
+  Import took 0.056527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/3.png
+  artifactKey: Guid(b392e5bd1afeeb64bb13a3ab17bb6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/3.png using Guid(b392e5bd1afeeb64bb13a3ab17bb6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726e0c47f2090316b4c9f4f7f46515e8') in 0.074198 seconds 
+  Import took 0.105168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/5.png
+  artifactKey: Guid(f724885a784743845b45745a6f679f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/5.png using Guid(f724885a784743845b45745a6f679f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bb32f304a682988857abe65c60ad3e') in 0.043350 seconds 
+  Import took 0.046303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/4.png
+  artifactKey: Guid(526a36a18db494748ab018439712f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Stones/4.png using Guid(526a36a18db494748ab018439712f85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679be6f9fd44b85184e0375f246e9804') in 0.031454 seconds 
+  Import took 0.034483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.104883 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/3.png
+  artifactKey: Guid(fc4762930df2d97469d8c933b0521f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/3.png using Guid(fc4762930df2d97469d8c933b0521f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3978e9ce916fb25c1ead3b91cf6086d') in 0.007563 seconds 
+  Import took 0.010850 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 5.842900 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.058300 ms MarkObjects: 5.538900 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.669832 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/2.png
+  artifactKey: Guid(347b601d370758e47bf759ad9a1895bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/2.png using Guid(347b601d370758e47bf759ad9a1895bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96521d770140586ade6dc73e929430d1') in 0.039020 seconds 
+  Import took 0.042170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/1.png
+  artifactKey: Guid(d3271ebb84d02c846afbdd6085635d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/1.png using Guid(d3271ebb84d02c846afbdd6085635d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0e4887406e4ec825b1bfcc7dcaf6e0') in 0.009893 seconds 
+  Import took 0.030792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/3.png
+  artifactKey: Guid(fc4762930df2d97469d8c933b0521f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Fence/3.png using Guid(fc4762930df2d97469d8c933b0521f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0026ab604f8f4c1f1abdba0eee4f6db6') in 0.006610 seconds 
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.024451 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/1.png
+  artifactKey: Guid(57867affab57d1b4c937e0c775490ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/1.png using Guid(57867affab57d1b4c937e0c775490ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4729c1b1b2175753b5cd80b9bb88b78') in 0.009567 seconds 
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/3.png
+  artifactKey: Guid(03f88ccdb963d314dbd2f969983f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/3.png using Guid(03f88ccdb963d314dbd2f969983f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841c27e5f052e3594369e9f16996e07d') in 0.007057 seconds 
+  Import took 0.009806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/5.png
+  artifactKey: Guid(6f8a2cf497ffa794b81edfaf4362de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/5.png using Guid(6f8a2cf497ffa794b81edfaf4362de09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88f21a8d5dc4e2b3f89aaf1efb3fa6a') in 0.006619 seconds 
+  Import took 0.037421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png
+  artifactKey: Guid(997b9b8c295933649a6c64bc13a8a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png using Guid(997b9b8c295933649a6c64bc13a8a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2f094c392dc42092cfe510d6217c47') in 0.007274 seconds 
+  Import took 0.010303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/2.png
+  artifactKey: Guid(d17111b21d1834942ab8668d4429273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/2.png using Guid(d17111b21d1834942ab8668d4429273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38db189b3aeeaf4305b1c4eb71c1c365') in 0.007407 seconds 
+  Import took 0.010236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/4.png
+  artifactKey: Guid(bfc207c1fa999354e85187fd01149d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Boxes/4.png using Guid(bfc207c1fa999354e85187fd01149d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f235c685ca3795758aeb041d174b131') in 0.008377 seconds 
+  Import took 0.011124 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2836.
+Total: 5.589100 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.069400 ms MarkObjects: 5.275200 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.785165 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png
+  artifactKey: Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png using Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab94fead27348514998b32f14875bef8') in 0.039839 seconds 
+  Import took 0.042848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.301026 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.anim
+  artifactKey: Guid(7e065c0197832c34a9c32497f361fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.anim using Guid(7e065c0197832c34a9c32497f361fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e522a759dc60774fcaebdd25cecc93') in 0.004206 seconds 
+  Import took 0.007629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 5.933500 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.057900 ms MarkObjects: 5.639000 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.545783 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png
+  artifactKey: Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png using Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7430a644eb89737c531c12599ae0d27d') in 0.029872 seconds 
+  Import took 0.033378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.540554 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png
+  artifactKey: Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.png using Guid(3abaeffccb479294aa33b20aa194374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ad8b4d806e7ae847257ec267d1c413') in 0.025590 seconds 
+  Import took 0.028824 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2845.
+Total: 5.929100 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.057400 ms MarkObjects: 5.643100 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.057598 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.controller
+  artifactKey: Guid(d51d32cc64c28144e802c7dcc479f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.controller using Guid(d51d32cc64c28144e802c7dcc479f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da049e1c41f815c6eca2cbb14e7002') in 0.011937 seconds 
+  Import took 0.015348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2847.
+Total: 6.111900 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.059900 ms MarkObjects: 5.822400 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.292696 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.controller
+  artifactKey: Guid(d51d32cc64c28144e802c7dcc479f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/4 Animated objects/Flag.controller using Guid(d51d32cc64c28144e802c7dcc479f8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2e39685c0d676685bce1ccc6ea6dcf') in 0.011737 seconds 
+  Import took 0.014838 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2849.
+Total: 5.563200 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.057500 ms MarkObjects: 5.288000 ms  DeleteObjects: 0.021900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.360987 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/Materials
+  artifactKey: Guid(7f17aad736223244595e22ecefed55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/Materials using Guid(7f17aad736223244595e22ecefed55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1718312ec53267d40cb856046034cdfa') in 0.007841 seconds 
+  Import took 0.027795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456330 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/Materials/7.mat
+  artifactKey: Guid(6e538a654c8f0b04f82d163f4be0059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/3 Objects/Pointers/Materials/7.mat using Guid(6e538a654c8f0b04f82d163f4be0059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e813664867804411d5fcdf4fc6a625') in 0.046177 seconds 
+  Import took 0.070005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.961638 seconds.
+  path: Assets/Prefab/Boss_Hero.prefab
+  artifactKey: Guid(81bf6768b172e5f4fbc46c6688f36642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Boss_Hero.prefab using Guid(81bf6768b172e5f4fbc46c6688f36642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc49935a9892d44e7539c2b45d883b') in 0.038664 seconds 
+  Import took 0.042220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Prefab/Wolf.prefab
+  artifactKey: Guid(6b20ac1b6cb2d7440ad9228791e2a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Wolf.prefab using Guid(6b20ac1b6cb2d7440ad9228791e2a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac215f926ccdaffad8f614168580b62c') in 0.012162 seconds 
+  Import took 0.015544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefab/Evil Wizard fire.prefab
+  artifactKey: Guid(cd004f4b27b2dc44aaf7356ae62e26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Evil Wizard fire.prefab using Guid(cd004f4b27b2dc44aaf7356ae62e26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0683ce2c5702ed2ea9098052e342f1f0') in 0.154670 seconds 
+  Import took 0.174665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.455763 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-1.png
+  artifactKey: Guid(86ca59b9bca0e409b9ba2784fbe69f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-1.png using Guid(86ca59b9bca0e409b9ba2784fbe69f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e6de86d356f1bf492f44c450f8af1') in 0.040234 seconds 
+  Import took 0.055351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-3.png
+  artifactKey: Guid(662ace939438646e7a4067a89ec54b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-3.png using Guid(662ace939438646e7a4067a89ec54b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4f1deb19cba038ed9055a2cfb0f85b') in 0.035161 seconds 
+  Import took 0.038428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-4.png
+  artifactKey: Guid(b0305a6bb0adb4f66b864290967ea22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-4.png using Guid(b0305a6bb0adb4f66b864290967ea22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0649e5243a40e6d62076a36906513d8e') in 0.061499 seconds 
+  Import took 0.064452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-2.png
+  artifactKey: Guid(116ac2caa16ad4f73af4539f8b07d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/Enemies/frog/idle/frog-idle-2.png using Guid(116ac2caa16ad4f73af4539f8b07d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a16cf21d383be601e16d8dff83d9b7') in 0.038377 seconds 
+  Import took 0.041872 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 5.491000 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.057700 ms MarkObjects: 5.214800 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 258.981893 seconds.
+  path: Assets/Scenes/1-2.unity
+  artifactKey: Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-2.unity using Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4abb871060979eaf21bb46ff1ef0b3') in 0.010874 seconds 
+  Import took 0.014182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.115333 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e1.png
+  artifactKey: Guid(9f095f2fb37b930408b10c7aeb7b3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e1.png using Guid(9f095f2fb37b930408b10c7aeb7b3114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6d720e3400eeced435feaa4d42b56b') in 0.067957 seconds 
+  Import took 0.071072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e8.png
+  artifactKey: Guid(822e9fecf23b522428c70ec70bcfc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e8.png using Guid(822e9fecf23b522428c70ec70bcfc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e0e64a86aa24a60a7996fe21ec4b3a') in 0.032521 seconds 
+  Import took 0.035167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e2.png
+  artifactKey: Guid(198bd602f8c62ab439cdb51587849408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e2.png using Guid(198bd602f8c62ab439cdb51587849408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd922677dd0a295107a4ef9c9d27bbf74') in 0.035029 seconds 
+  Import took 0.037786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e4.png
+  artifactKey: Guid(02d0423c7d04f974aaa7b5eb4f476cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e4.png using Guid(02d0423c7d04f974aaa7b5eb4f476cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9698eb14e1dac915e63275242aa16fb7') in 0.065179 seconds 
+  Import took 0.068069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e7.png
+  artifactKey: Guid(0d665c45f79ac4342af08f8ab53b05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e7.png using Guid(0d665c45f79ac4342af08f8ab53b05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6a21ebb24d4fbc8f9d7edc7bf5dbc5') in 0.024228 seconds 
+  Import took 0.027249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r2.png
+  artifactKey: Guid(dabf59bc930497b40916a2abdcf02117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r2.png using Guid(dabf59bc930497b40916a2abdcf02117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0533d2c4bd8a974af546e33ac35018fd') in 0.071673 seconds 
+  Import took 0.074510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r6.png
+  artifactKey: Guid(34fc78895911e374f84068ea46611a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r6.png using Guid(34fc78895911e374f84068ea46611a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4597c453b11c81c42258109d55bd0a6') in 0.021434 seconds 
+  Import took 0.024123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r3.png
+  artifactKey: Guid(b928c93c8a3b71844b02c0dc61b1727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r3.png using Guid(b928c93c8a3b71844b02c0dc61b1727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db00230bf83401f238cde81da0edae6') in 0.037582 seconds 
+  Import took 0.040320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r1.png
+  artifactKey: Guid(505494b2bc3a8a0428a6f34789c13575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r1.png using Guid(505494b2bc3a8a0428a6f34789c13575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a0ef064f2426dac26d337a43d6b85') in 0.046049 seconds 
+  Import took 0.063136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r4.png
+  artifactKey: Guid(fe3fbc3125158b943b8e6c5ddee373dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r4.png using Guid(fe3fbc3125158b943b8e6c5ddee373dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e000371649283aaebba897bb5eafe272') in 0.041353 seconds 
+  Import took 0.043991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/s1.png
+  artifactKey: Guid(9d0b330f4af88ed44932a9ba3b84d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/s1.png using Guid(9d0b330f4af88ed44932a9ba3b84d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b54cdd7b75fbca2ed66151bdf2a914') in 0.035628 seconds 
+  Import took 0.038657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e5.png
+  artifactKey: Guid(68e1cea4fa12f714aabc51b5d46c1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e5.png using Guid(68e1cea4fa12f714aabc51b5d46c1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88003955eaea97bfdac821ece2bd6fa1') in 0.022403 seconds 
+  Import took 0.025582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r5.png
+  artifactKey: Guid(4441200501cfb4a41ad67a9946d51ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r5.png using Guid(4441200501cfb4a41ad67a9946d51ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d49356c6564be17d3e009fe96aa9f7') in 0.022278 seconds 
+  Import took 0.025329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e6.png
+  artifactKey: Guid(583503f3c726bef49910ca31a0e42652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e6.png using Guid(583503f3c726bef49910ca31a0e42652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123cef2ef4ec224860876582427d78f5') in 0.026888 seconds 
+  Import took 0.030042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/e3.png
+  artifactKey: Guid(4c6f7451d88fcb847b0c6636d56ad27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/e3.png using Guid(4c6f7451d88fcb847b0c6636d56ad27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d88febc4be53e8b6b0b213e3dd7ad61') in 0.023787 seconds 
+  Import took 0.026481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r7.png
+  artifactKey: Guid(6525fec3d304dfc469b6d18a226d6c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r7.png using Guid(6525fec3d304dfc469b6d18a226d6c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ca2008677d13fa018fc753d74c647b') in 0.046122 seconds 
+  Import took 0.075817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/BackGround/Mapselect/5 Shadows/r8.png
+  artifactKey: Guid(76acc2b571aa821488d07e9b8a559eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/5 Shadows/r8.png using Guid(76acc2b571aa821488d07e9b8a559eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336356a6838b9e53b63fd6cbbcd0c6d6') in 0.046988 seconds 
+  Import took 0.049866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404531 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles
+  artifactKey: Guid(a94cc2fd4276be845ba1c5f39097e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles using Guid(a94cc2fd4276be845ba1c5f39097e309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb637937e59b38f86f35d2ac571410d') in 0.005787 seconds 
+  Import took 0.008913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050253 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_01.png
+  artifactKey: Guid(c2021c3ec06b25b41a41dac705c63054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_01.png using Guid(c2021c3ec06b25b41a41dac705c63054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed527eeadd15833606e9b5fc8a900bb') in 0.026265 seconds 
+  Import took 0.029331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_03.png
+  artifactKey: Guid(0f745fe5e0be1ff45b167e650606e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_03.png using Guid(0f745fe5e0be1ff45b167e650606e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b095fe09f9d04ef70f5b7f69a85a8fe') in 0.045454 seconds 
+  Import took 0.048281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_14.png
+  artifactKey: Guid(7f7f1e7a5e05acc4b9e2d507c71848f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_14.png using Guid(7f7f1e7a5e05acc4b9e2d507c71848f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec063e88781881a73713be023bc41a4') in 0.033049 seconds 
+  Import took 0.061868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_15.png
+  artifactKey: Guid(10bcde2c2af976f4e8fbeabbaa51a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_15.png using Guid(10bcde2c2af976f4e8fbeabbaa51a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8bc33b8a4c87e8139f5489f999bfd') in 0.041646 seconds 
+  Import took 0.044334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_16.png
+  artifactKey: Guid(f255b52f22fd56c4086b9b00e4044644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_16.png using Guid(f255b52f22fd56c4086b9b00e4044644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5470e405a58967cecde13788aef86d0e') in 0.033619 seconds 
+  Import took 0.036862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_02.png
+  artifactKey: Guid(be45232bd0eebf741a6ab6156a906bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_02.png using Guid(be45232bd0eebf741a6ab6156a906bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868bdc366829fb4b11a2e942133a42f7') in 0.032618 seconds 
+  Import took 0.035480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_05.png
+  artifactKey: Guid(492883e6a6240e741a8a472fed5bcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_05.png using Guid(492883e6a6240e741a8a472fed5bcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85215d088d5436c609b01fa046d184b') in 0.013103 seconds 
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_13.png
+  artifactKey: Guid(6b817e0c8dde8f146a1e24aaacaedae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_13.png using Guid(6b817e0c8dde8f146a1e24aaacaedae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6064273ec877decccea13ed8905015f') in 0.026577 seconds 
+  Import took 0.029618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_12.png
+  artifactKey: Guid(b746613ca7d65b041b32d4ec0c4fbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_12.png using Guid(b746613ca7d65b041b32d4ec0c4fbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694af0de43f0cbf3d66436e1aa15361b') in 0.031061 seconds 
+  Import took 0.034070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_06.png
+  artifactKey: Guid(ee19042627838f04ea2fa6a6de199d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_06.png using Guid(ee19042627838f04ea2fa6a6de199d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50dec8e7282ec61b7c50a5e94c56f7d') in 0.029004 seconds 
+  Import took 0.058675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_10.png
+  artifactKey: Guid(55c52873426e5544d8188cc14a7c2fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_10.png using Guid(55c52873426e5544d8188cc14a7c2fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acc9292c54bb86566a0e53068275414') in 0.040996 seconds 
+  Import took 0.043854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_11.png
+  artifactKey: Guid(fcb1d80b92ded914385b3ee239ffc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_11.png using Guid(fcb1d80b92ded914385b3ee239ffc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b236694f575b7103547ad816ea3c8') in 0.018297 seconds 
+  Import took 0.021277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_04.png
+  artifactKey: Guid(b6f401b138e4292408ff8b2965599056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_04.png using Guid(b6f401b138e4292408ff8b2965599056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f439a8c1249faedeeb6043e4c87ab7') in 0.024200 seconds 
+  Import took 0.027174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_08.png
+  artifactKey: Guid(bf47e000716e884418803059a7298406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_08.png using Guid(bf47e000716e884418803059a7298406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610241762d83d2016b100f3bb8c77608') in 0.024055 seconds 
+  Import took 0.026714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_09.png
+  artifactKey: Guid(7355cc272ba7c4344acb3691ab2bdd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_09.png using Guid(7355cc272ba7c4344acb3691ab2bdd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f1c6b1f0ec967151085d3978bee8f') in 0.045934 seconds 
+  Import took 0.048947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_17.png
+  artifactKey: Guid(5ae0b27137a6a7244922aae72c071447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_17.png using Guid(5ae0b27137a6a7244922aae72c071447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18933d652b5d4e1c044a58180b90487f') in 0.047105 seconds 
+  Import took 0.049911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BackGround/Mapselect/1 Tiles/Map_tile_07.png
+  artifactKey: Guid(b7b6696fa274cd64b89663b7e680e826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Mapselect/1 Tiles/Map_tile_07.png using Guid(b7b6696fa274cd64b89663b7e680e826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c6632286d956b1f7097552dda8a80') in 0.035638 seconds 
+  Import took 0.038625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.322453 seconds.
+  path: Assets/BackGround/Free Pixel Art Hills/PREVIEWS
+  artifactKey: Guid(cbc17f0448b52d540932af26f27c696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Hills/PREVIEWS using Guid(cbc17f0448b52d540932af26f27c696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691fbe0d69df9fd1157fcbd9bf065e59') in 0.005049 seconds 
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387603 seconds.
+  path: Assets/BackGround/Free Pixel Art Hills/PNG/Hills Layer 01.png
+  artifactKey: Guid(b8657fe1ee4ab734c910b161488d1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Hills/PNG/Hills Layer 01.png using Guid(b8657fe1ee4ab734c910b161488d1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82b7a8e5e055b49a5b98949457c37c0') in 0.098471 seconds 
+  Import took 0.117130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.458815 seconds.
+  path: Assets/BackGround/free-swamp-game-tileset-pixel-art/2 Background/Background.png
+  artifactKey: Guid(029835f8a3c88224ca17ca34ac863185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/free-swamp-game-tileset-pixel-art/2 Background/Background.png using Guid(029835f8a3c88224ca17ca34ac863185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2186285e265fea3545409a4bac354259') in 0.098056 seconds 
+  Import took 0.101326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.936098 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers
+  artifactKey: Guid(56d60d8cc499a434396ecf18ab0c3a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers using Guid(56d60d8cc499a434396ecf18ab0c3a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60107ae91c28f7a47354e51580cd1b') in 0.005337 seconds 
+  Import took 0.008516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037666 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0000_9.png
+  artifactKey: Guid(c07322ffb6eb4d0488066092b628ae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0000_9.png using Guid(c07322ffb6eb4d0488066092b628ae41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa18a4a8b49e64f030273ed49d4a09d') in 0.015471 seconds 
+  Import took 0.018662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0008_3.png
+  artifactKey: Guid(611c7ef303d48ee4992e02f10f5848f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0008_3.png using Guid(611c7ef303d48ee4992e02f10f5848f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b36948f18df894b61c0f3f939f0c7') in 0.011586 seconds 
+  Import took 0.014799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0005_5.png
+  artifactKey: Guid(c630a227802b2c543acaaf4931ef3078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0005_5.png using Guid(c630a227802b2c543acaaf4931ef3078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9e4e401f5bd52ab19dde0c77b1857') in 0.012157 seconds 
+  Import took 0.015195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0001_8.png
+  artifactKey: Guid(aadd0f8a4e3190e4b9e33d00e6b76654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0001_8.png using Guid(aadd0f8a4e3190e4b9e33d00e6b76654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7f0794d7374c3d949572408da2666d') in 0.013387 seconds 
+  Import took 0.016142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0004_Lights.png
+  artifactKey: Guid(b29f35dc4f5d643409e7e3ff380875d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0004_Lights.png using Guid(b29f35dc4f5d643409e7e3ff380875d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baf8acf7ed97161aa0d5b241f668784') in 0.011666 seconds 
+  Import took 0.014699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0006_4.png
+  artifactKey: Guid(e72d7def7a52c944cb248c15f390e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0006_4.png using Guid(e72d7def7a52c944cb248c15f390e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbb7d9f89871ac3d02002d07b9ecf33') in 0.012511 seconds 
+  Import took 0.015590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0002_7.png
+  artifactKey: Guid(ee231c20c6f948445a061bfb00f5489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0002_7.png using Guid(ee231c20c6f948445a061bfb00f5489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209b50ce50c1b537e7325f9ca7dc88a') in 0.013069 seconds 
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0011_0.png
+  artifactKey: Guid(87d17bd372cdd0e4aaa6bebbfe9e1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0011_0.png using Guid(87d17bd372cdd0e4aaa6bebbfe9e1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e037181c8cfb06690eff81851f0628e3') in 0.126925 seconds 
+  Import took 0.129555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0010_1.png
+  artifactKey: Guid(8ff6403c2622a884294714a014b1ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0010_1.png using Guid(8ff6403c2622a884294714a014b1ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de0acc421e281ebdf34970b1d7eb345') in 0.063156 seconds 
+  Import took 0.066238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0009_2.png
+  artifactKey: Guid(750d44acc25981c47b6974ce0266fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0009_2.png using Guid(750d44acc25981c47b6974ce0266fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a83ba9bcdf8d9c0dcf78441d2e5a4') in 0.011815 seconds 
+  Import took 0.015258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0007_Lights.png
+  artifactKey: Guid(c28c9bb0ad3b81a4fbe0a68c60cbaeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0007_Lights.png using Guid(c28c9bb0ad3b81a4fbe0a68c60cbaeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797b5b22e5d4e9cbf737c8a324fab028') in 0.013838 seconds 
+  Import took 0.016986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0003_6.png
+  artifactKey: Guid(326f79349eb77be4ebc8bc53c74a3ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/Free Pixel Art Forest/PNG/Background layers/Layer_0003_6.png using Guid(326f79349eb77be4ebc8bc53c74a3ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deec33b7b27e3a57d250de57763bf54') in 0.012879 seconds 
+  Import took 0.016084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.105059 seconds.
+  path: Assets/Scenes/1-1.unity
+  artifactKey: Guid(93a4e8eb7b96a944abc04a890ab109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-1.unity using Guid(93a4e8eb7b96a944abc04a890ab109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0dd65281330a8522e19753a1a5998b') in 0.006043 seconds 
+  Import took 0.009410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.050045 seconds.
+  path: Assets/Prefab/Flag.prefab
+  artifactKey: Guid(fb681b557dc9a3b45a5c9dea5b47b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Flag.prefab using Guid(fb681b557dc9a3b45a5c9dea5b47b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0532815621ae93db23f8c39aa89a4c5d') in 0.026953 seconds 
+  Import took 0.030353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.764946 seconds.
+  path: Assets/Scenes/1-2.unity
+  artifactKey: Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-2.unity using Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ca9baec48d6fcae710c53d7dfb9ef') in 0.002284 seconds 
+  Import took 0.005567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.945201 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_0.asset
+  artifactKey: Guid(862c156fa05cddc4e96971793857398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_0.asset using Guid(862c156fa05cddc4e96971793857398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177e695a026e1e2bed2ae6fd005dcc6') in 0.014832 seconds 
+  Import took 0.018065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_7.asset
+  artifactKey: Guid(bc72c9babd507dd46a16022be33a163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_7.asset using Guid(bc72c9babd507dd46a16022be33a163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697be8f6d69c1502dacd345b833b2254') in 0.008302 seconds 
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_10.asset
+  artifactKey: Guid(73e70a93b76e79c44aa7902dc69b03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_10.asset using Guid(73e70a93b76e79c44aa7902dc69b03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a48f931d89b6822acd9f803ae163a7') in 0.008481 seconds 
+  Import took 0.011693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_2.asset
+  artifactKey: Guid(d0127955b9a08214582d5f2300f9e9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_2.asset using Guid(d0127955b9a08214582d5f2300f9e9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08032180eb0f4d2ad66d06d96e744dbb') in 0.009201 seconds 
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_14.asset
+  artifactKey: Guid(49bd0d9bb093d724ca61a4d82e49da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_14.asset using Guid(49bd0d9bb093d724ca61a4d82e49da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b15759125103b52afcae5fd0d460e') in 0.008696 seconds 
+  Import took 0.011735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_11.asset
+  artifactKey: Guid(74e52b8e6d6f78b4294af6c0edf47027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_11.asset using Guid(74e52b8e6d6f78b4294af6c0edf47027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d86fe84f1d033aba6d4d48e20ea85') in 0.008388 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_3.asset
+  artifactKey: Guid(2f6880215ecfba349bb5c08c96cd0d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_3.asset using Guid(2f6880215ecfba349bb5c08c96cd0d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5809742292c27077ae8de18c1b87a515') in 0.009074 seconds 
+  Import took 0.012020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_5.asset
+  artifactKey: Guid(a54017d63b18cd64c922d04fafba43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_5.asset using Guid(a54017d63b18cd64c922d04fafba43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82f52cda46b6824de141eca170aa66e') in 0.008619 seconds 
+  Import took 0.011617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_4.asset
+  artifactKey: Guid(1a67bddf92e5b3645b19b15e0cb0f29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_4.asset using Guid(1a67bddf92e5b3645b19b15e0cb0f29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01423cbefc1410324806e5e364db9502') in 0.008171 seconds 
+  Import took 0.010903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_12.asset
+  artifactKey: Guid(9bc7b0c6d654522449a92e5491410475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_12.asset using Guid(9bc7b0c6d654522449a92e5491410475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c43385b1b50b733c039e483f8ec6f1') in 0.008630 seconds 
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_13.asset
+  artifactKey: Guid(1ff1d5de450b4b842b217c1f9e76e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_13.asset using Guid(1ff1d5de450b4b842b217c1f9e76e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b49f67bb867192260e5b45bb093770') in 0.009779 seconds 
+  Import took 0.013096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_6.asset
+  artifactKey: Guid(77396856f0c6cd44292aca87b62d73da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_6.asset using Guid(77396856f0c6cd44292aca87b62d73da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307610ef504749114b3c7829ae40aa44') in 0.027945 seconds 
+  Import took 0.039729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_15.asset
+  artifactKey: Guid(76cc06fe2e0321d418cc53238adc0a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_15.asset using Guid(76cc06fe2e0321d418cc53238adc0a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c858808c1c48a35a360503c3633058e') in 0.009411 seconds 
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_9.asset
+  artifactKey: Guid(4e9576ab0404c9f4bbf9efdf9f140d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_9.asset using Guid(4e9576ab0404c9f4bbf9efdf9f140d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c571335e9395499776d55a89cf15411') in 0.008087 seconds 
+  Import took 0.011228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_8.asset
+  artifactKey: Guid(da937457d3e0c784f9f54097522d8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_8.asset using Guid(da937457d3e0c784f9f54097522d8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691b1a4775ed451acff70775b93c88d3') in 0.008562 seconds 
+  Import took 0.011312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BackGround/FreePlatformerNA/Foreground/Tileset_1.asset
+  artifactKey: Guid(a29b5dbf89a62cc49b9fa4075b0e5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGround/FreePlatformerNA/Foreground/Tileset_1.asset using Guid(a29b5dbf89a62cc49b9fa4075b0e5391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0527a09de757b5138ad4c228c7068cf') in 0.008666 seconds 
+  Import took 0.031682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2908.
+Total: 5.416400 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.057300 ms MarkObjects: 5.152700 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.874875 seconds.
+  path: Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse1.png
+  artifactKey: Guid(5334a60396bca40f19ac9d531fab2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse1.png using Guid(5334a60396bca40f19ac9d531fab2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb7a684538fecf22489475c1549879') in 0.059745 seconds 
+  Import took 0.063020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse2.png
+  artifactKey: Guid(2b18d44d6d8244d5bbdbef2b52ba068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse2.png using Guid(2b18d44d6d8244d5bbdbef2b52ba068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57929d30c64a6064298cfbf1941ed5e') in 0.058552 seconds 
+  Import took 0.061457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse4.png
+  artifactKey: Guid(a1ff8d71f6d1a4809b4e35fac8d4a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse4.png using Guid(a1ff8d71f6d1a4809b4e35fac8d4a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64a76892cef4b19690f865f8a9a1e90') in 0.060113 seconds 
+  Import took 0.063244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse3.png
+  artifactKey: Guid(d7e06cd92a81c4da982d67a807b692b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Shooting Fx/Pixel Art/Pulse/pulse3.png using Guid(d7e06cd92a81c4da982d67a807b692b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8795e93f36c0122bb06fd257387589d') in 0.029007 seconds 
+  Import took 0.031984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.093136 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.004997 seconds 
+  Import took 0.008200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036572 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522470f2f0147079889df7c99ba7fc5') in 0.069988 seconds 
+  Import took 0.073159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.288205 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.005726 seconds 
+  Import took 0.008950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.513418 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df7051f5b12f3f69d646d60f9166c36') in 0.005298 seconds 
+  Import took 0.008485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037610 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf99f5966e97820932fc943cdde5a356') in 0.207608 seconds 
+  Import took 0.210655 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 6.407400 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.058200 ms MarkObjects: 6.097400 ms  DeleteObjects: 0.026800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 719.189577 seconds.
+  path: Assets/Scenes/1-3.unity
+  artifactKey: Guid(b53c41c5026393d469e61f38fe7d5846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-3.unity using Guid(b53c41c5026393d469e61f38fe7d5846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8c12dfba62d5fc61f33c7a1bef9e5') in 0.014443 seconds 
+  Import took 0.017880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.235577 seconds.
+  path: Assets/Scenes/1-2.unity
+  artifactKey: Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-2.unity using Guid(e8ea66fe2ad31fd469298d4d29ade443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eba905e7c02ff0bc2610a4e7890ba49') in 0.001955 seconds 
+  Import took 0.021635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042817 seconds.
+  path: Assets/Scenes/1-1.unity
+  artifactKey: Guid(93a4e8eb7b96a944abc04a890ab109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-1.unity using Guid(93a4e8eb7b96a944abc04a890ab109f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea204be26c3f94c91876f2399fce2550') in 0.005359 seconds 
+  Import took 0.008597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 473.401889 seconds.
+  path: Assets/Scenes/1-1 1.unity
+  artifactKey: Guid(2e00474f334ab77409ca8dfa3a81ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-1 1.unity using Guid(2e00474f334ab77409ca8dfa3a81ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ce6d35d991b36da61cd858ddcb6597') in 0.005349 seconds 
+  Import took 0.008869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.202157 seconds.
+  path: Assets/Scenes/2-1.unity
+  artifactKey: Guid(2e00474f334ab77409ca8dfa3a81ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2-1.unity using Guid(2e00474f334ab77409ca8dfa3a81ebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07081733810d6aa0532092540757beaa') in 0.006507 seconds 
+  Import took 0.084452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.520151 seconds.
+  path: Assets/Image/Fullmain.png
+  artifactKey: Guid(6fe32500a44842640985bcb8a173fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Fullmain.png using Guid(6fe32500a44842640985bcb8a173fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33b91fdc392322d39692f87554fcb76') in 0.189925 seconds 
+  Import took 0.193376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237614 seconds.
+  path: Assets/Evil Wizard/Sprites/Idle.png
+  artifactKey: Guid(6fc66c021eec74942b4e71a3fde4dc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Evil Wizard/Sprites/Idle.png using Guid(6fc66c021eec74942b4e71a3fde4dc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e813bd7a11441a0f7991a8905b270c') in 0.027334 seconds 
+  Import took 0.030894 seconds .
+
