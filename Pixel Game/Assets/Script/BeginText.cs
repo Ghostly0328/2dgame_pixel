@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class BeginText : MonoBehaviour
 {
     public Text maintext,Heart;
+    private float countTime=0;
     void Start()
     {
         StaticCharactor.health = 10; //設定初始血量
@@ -12,7 +13,16 @@ public class BeginText : MonoBehaviour
         Invoke("BeginCheckLive",1.5f);
         maintext.text = "WORLD " + SceneManager.GetActiveScene().name;
         Heart.text = "X " + StaticCharactor.lastheart;
-        Destroy(gameObject, 2);//關閉開頭頁面
+        Time.timeScale = 0;
+    }
+    void Update()
+    {
+        countTime += Time.fixedDeltaTime;
+        if(countTime > 2f)
+        {
+            Time.timeScale = 1;
+            Destroy(gameObject);
+        }
     }
     private void BeginCheckLive()
     {

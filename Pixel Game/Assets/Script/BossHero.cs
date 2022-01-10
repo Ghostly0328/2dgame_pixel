@@ -7,7 +7,8 @@ public class BossHero : Enemy
 {
     public bool isFlipped = false;
     public Rigidbody2D Rb;
-
+    public Collider2D groundcheck;
+    public LayerMask Ground;
     public void Start()
     {
         base.Start();
@@ -24,6 +25,10 @@ public class BossHero : Enemy
         else if (health <= 30)
         {
             GetComponent<Animator>().SetBool("IsEnrage",true);
+        }
+        if (groundcheck.IsTouchingLayers(Ground))
+        {
+            gameObject.GetComponent<Animator>().SetBool("Fall", false);
         }
     }
 
