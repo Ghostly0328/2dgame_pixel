@@ -241,6 +241,7 @@ public class PlayerScript : MonoBehaviour
         if (!NoGetDamage)
         {
             StaticCharactor.health -= damage;
+            Setting.Instance.shakecamera(3f,.2f);
             BlinkPlayer(Blinks,times);
         }
     }
