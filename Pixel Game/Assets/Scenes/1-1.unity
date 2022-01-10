@@ -2658,7 +2658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.68302, y: -3.46501, z: -13}
+  m_LocalPosition: {x: -38.794918, y: -3.45997, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17090,7 +17090,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2037036, y: 1}
+    m_SensorSize: {x: 2.0555556, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -17766,7 +17766,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 41.16935, y: 0.40655518}
+  m_Offset: {x: 37.40242, y: 0.40655518}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -17777,7 +17777,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 194.69026, y: 1.8131104}
+  m_Size: {x: 256.1459, y: 1.8131104}
   m_EdgeRadius: 0
 --- !u!1 &1633678387
 GameObject:
@@ -21054,6 +21054,11 @@ PrefabInstance:
       propertyPath: firebollbar
       value: 
       objectReference: {fileID: 1425775848}
+    - target: {fileID: 5509584370656813122, guid: cd004f4b27b2dc44aaf7356ae62e26b4,
+        type: 3}
+      propertyPath: EnterEndZone
+      value: 
+      objectReference: {fileID: 1578425000}
     - target: {fileID: 5509584370656813124, guid: cd004f4b27b2dc44aaf7356ae62e26b4,
         type: 3}
       propertyPath: m_RootOrder

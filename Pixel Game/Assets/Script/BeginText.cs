@@ -14,6 +14,7 @@ public class BeginText : MonoBehaviour
         maintext.text = "WORLD " + SceneManager.GetActiveScene().name;
         Heart.text = "X " + StaticCharactor.lastheart;
         Time.timeScale = 0;
+        BeginCheckLive();
     }
     void Update()
     {
