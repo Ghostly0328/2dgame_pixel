@@ -207,6 +207,7 @@ public class PlayerWizard : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 CoinCount.Coin += 1;
+                CoinCount.coinsoundplay();
             }
             m_timeCollect = 0;
         }
