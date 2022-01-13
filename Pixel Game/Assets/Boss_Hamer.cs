@@ -7,6 +7,7 @@ public class Boss_Hamer : Enemy
 {
     public bool isFlipped = false;
     public Rigidbody2D Rb;
+    public AudioSource hamer1,sword1;
     public void Start()
     {
         base.Start();
@@ -88,5 +89,13 @@ public class Boss_Hamer : Enemy
         {
             gameObject.transform.position = new Vector2(gameObject.transform.position.x +4f, gameObject.transform.position.y);
         }
+    }
+    public void hamer1play()
+    {
+        hamer1.Play();
+    }
+    public void sword1play()
+    {
+        sword1.Play();
     }
 }

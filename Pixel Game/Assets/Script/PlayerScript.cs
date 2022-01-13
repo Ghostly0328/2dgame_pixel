@@ -47,6 +47,8 @@ public class PlayerScript : MonoBehaviour
     public float TimeCoolDown;
     public Image TimeBar;
 
+    public AudioSource atk1, atk2;
+
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
@@ -287,6 +289,7 @@ public class PlayerScript : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 CoinCount.Coin += 1;
+                CoinCount.coinsoundplay();
             }
             m_timeCollect = 0;
         }
@@ -374,5 +377,13 @@ public class PlayerScript : MonoBehaviour
             StaticCharactor.lastheart -= 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+    public void atk1sound()
+    {
+        atk1.Play();
+    }
+    public void atk2sound()
+    {
+        atk2.Play();
     }
 }
