@@ -13,7 +13,6 @@ public class BossHero : Enemy
     {
         base.Start();
         Rb = GetComponent<Rigidbody2D>();
-
     }
 
     public void FixedUpdate()

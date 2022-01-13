@@ -8,24 +8,23 @@ public class BeginText : MonoBehaviour
     private static float countTime, _lastUpdate;
     public GameObject nongameover, gameover;
     private bool sceneclass;
-    public AudioSource gameoversound,bgm;
     void Start()
     {
-        StaticCharactor.health = 10; //設定初始血量
-        //檢查是否沒生命
-        Invoke("BeginCheckLive",1.5f);
+        Time.timeScale = 0;// Stop Time
+        StaticCharactor.health = 10; //set ini health
+
+        //set start word
         maintext.text = "WORLD " + SceneManager.GetActiveScene().name;
         Heart.text = "X " + StaticCharactor.lastheart;
-        Time.timeScale = 0;
-        countTime = 0;
+        //setActiveTime
         _lastUpdate = Time.realtimeSinceStartup;
         gameover.SetActive(false);
         BeginCheckLive();
-        gameoversound = GetComponent<AudioSource>();
-        bgm = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>();
+        countTime = 0;
     }
     void Update()
     {
+        //CountTime
         countTime += Time.realtimeSinceStartup - _lastUpdate;
         if (countTime > 3f)
         {
@@ -48,8 +47,6 @@ public class BeginText : MonoBehaviour
             nongameover.SetActive(false);
             gameover.SetActive(true);
             sceneclass = true;
-            //bgm.Stop();
-            gameoversound.Play();
         }
     }
 }

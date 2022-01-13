@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     private GameObject Player;
-    private void Start()
-    {
-        Player = GameObject.FindWithTag("Player");
-    }
+    //private void Start()
+    //{
+    //    //Player = GameObject.FindWithTag("Player");
+    //}
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemies" && !PlayerScript.isColliding)
