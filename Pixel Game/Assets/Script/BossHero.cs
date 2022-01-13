@@ -5,18 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class BossHero : Enemy
 {
+    private bool isDead;
     public bool isFlipped = false;
     public Rigidbody2D Rb;
     public Collider2D groundcheck;
     public LayerMask Ground;
     public void Start()
     {
+        isDead = false;
+        EnemyBar.max = health;
         base.Start();
         Rb = GetComponent<Rigidbody2D>();
     }
 
     public void FixedUpdate()
     {
+        EnemyBar.num = health;
         if (health <= 0)
         {
             EnemyDead();
@@ -51,8 +55,11 @@ public class BossHero : Enemy
     }
     public void EnemyDead()
     {
-        GetComponent<Animator>().SetTrigger("Dead");
-
+        if (isDead == false)
+        {
+            GetComponent<Animator>().SetTrigger("Dead");
+        }
+        isDead = true;
     }
     public void Attackplus1()
     {

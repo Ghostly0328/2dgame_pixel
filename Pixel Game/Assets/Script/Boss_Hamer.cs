@@ -5,17 +5,21 @@ using System.Collections.Generic;
 
 public class Boss_Hamer : Enemy
 {
+    private bool isDead;
     public bool isFlipped = false;
     public Rigidbody2D Rb;
     public AudioSource hamer1,sword1;
     public void Start()
     {
+        isDead = false;
+        EnemyBar.max = health;
         base.Start();
         Rb = GetComponent<Rigidbody2D>();
     }
 
     public void FixedUpdate()
     {
+        EnemyBar.num = health;
         if (health <= 0)
         {
             EnemyDead();
@@ -46,7 +50,12 @@ public class Boss_Hamer : Enemy
     }
     public void EnemyDead()
     {
-        GetComponent<Animator>().SetTrigger("Dead");
+        if(isDead == false)
+        {
+            GetComponent<Animator>().SetTrigger("Dead");
+        }
+        isDead = true;
+        
 
     }
     public void BossDeadScore()

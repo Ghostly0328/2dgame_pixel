@@ -621,7 +621,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   JumpCount: 0
-  PlayerDamage: 3
+  PlayerDamage: 60
   PlayerHealth: 10
   MoreDamage: 6
   Blinks: 3

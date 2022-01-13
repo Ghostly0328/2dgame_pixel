@@ -10,7 +10,6 @@ public class PlayerScript : MonoBehaviour
     private     Animator        Anim;
     public      Collider2D      GroundSensor;
     public Collider2D RightSlopeSensor;
-    public Collider2D WallSensor;
     public      LayerMask       Ground;
     private     float           Speed=250,JumpForce=750;
     private     float           m_timeSinceAttack = 0,m_timeCollect=0;
@@ -123,6 +122,7 @@ public class PlayerScript : MonoBehaviour
         healthCheck();
         SlowMoveCount();
         Dash();
+        StaticCharactor.playerdamage = PlayerDamage;
     }
     void ClearAtk()
     {
@@ -164,10 +164,14 @@ public class PlayerScript : MonoBehaviour
             Speed = 250;
         
         //設定Material 在空中時不卡牆壁
-        if (GroundSensor.IsTouchingLayers(Ground))
+        if (GroundSensor.IsTouchingLayers(Ground) && horizontalmove==0)
+        {
             Rb.sharedMaterial = hard;
+        }
         else
+        {
             Rb.sharedMaterial = soft;
+        }
 
         //設定上斜坡
         if (RightSlopeSensor.IsTouchingLayers(Ground) && horizontalmove != 0f && dashTimeLeft ==0)
@@ -320,11 +324,6 @@ public class PlayerScript : MonoBehaviour
     {
         if (isDashing)
         {
-            if (WallSensor.IsTouchingLayers(Ground))
-            {
-                dashTimeLeft = 0;
-                Rb.velocity = new Vector2(0, Rb.velocity.y);
-            }
             if (dashTimeLeft > 0)
             {
                 Rb.velocity = new Vector2(dashSpeed * transform.localScale.x * Time.deltaTime, Rb.velocity.y);
@@ -349,7 +348,7 @@ public class PlayerScript : MonoBehaviour
         SlowMoveStartCount = true;
         SlowMoveTime = SlowMoveTimeMax;
         SlowMoveMask.SetActive(true);
-        PlayerDamage = MoreDamage;
+        StaticCharactor.playerdamage = MoreDamage;
         JumpForce = JumpForce * 2f;
     }
     void SlowMoveCount()
@@ -362,7 +361,7 @@ public class PlayerScript : MonoBehaviour
             if (SlowMoveTime <= 0)
             {
                 SlowMoveMask.SetActive(false);
-                PlayerDamage = 3;
+                StaticCharactor.playerdamage = 3;
                 Time.timeScale = 1f;
                 JumpForce = JumpForce / 2f;
                 Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
