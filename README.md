@@ -1,4 +1,4 @@
-# 2dgame_project
+# Good Knight
 This is my first 2d game in unity
 
 嵌入式系統期末
